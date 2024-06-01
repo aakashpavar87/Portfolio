@@ -1021,6 +1021,11 @@ img {
     margin-right: var(--margin-bottom-0-1);
   }
 
+
+  .portfolio-button {
+    margin: 5px 0;
+  }
+
   .nav-menu {
     padding: 2rem 0.25rem 4rem;
   }
