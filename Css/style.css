@@ -115,6 +115,13 @@
   }
 }
 
+.three-d-model {
+  width: 100%;
+  height: 400px;
+  /* Adjust as needed */
+  border: none;
+}
+
 /* dark color scheme  */
 body.dark-theme {
   --first-color-second: hsl(var(--hue-color), 30%, 8%);
@@ -209,9 +216,40 @@ img {
   text-align: center;
 }
 
+.myContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.iframe-wrapper {
+  width: 100%;
+  max-width: 600px;
+  /* Adjust as needed */
+  height: auto;
+}
+
 /* layout  */
 .container {
   max-width: 768px;
+  margin-left: var(--margin-bottom-0-1-5);
+  margin-right: var(--margin-bottom-0-1-5);
+}
+
+.my-container {
+  max-width: 998px;
   margin-left: var(--margin-bottom-0-1-5);
   margin-right: var(--margin-bottom-0-1-5);
 }
@@ -259,6 +297,25 @@ img {
 
 .nav-toggle:hover {
   color: var(--first-color);
+}
+
+@media (max-width: 768px) {
+  .three-d-model {
+    display: none;
+    /* Hide iframe on smaller screens */
+  }
+
+  .about-img {
+    display: block;
+    /* Show image on smaller screens */
+  }
+}
+
+@media (min-width: 769px) {
+  .about-img {
+    display: none;
+    /* Hide image on larger screens */
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -460,8 +517,11 @@ img {
 /* about  */
 
 .about-img {
-  width: 200px;
+  width: 100%;
+  margin: auto;
+  max-width: 800px;
   border: 0.5rem;
+  /* height: 200px; */
   justify-self: center;
   align-items: center;
   filter: drop-shadow(1px 1px 1px var(--first-color-lighter));
@@ -860,6 +920,11 @@ img {
   row-gap: 3.5rem;
 }
 
+/* .footer-bg {
+  background-color: var(--first-color-second);
+  padding: 2rem 0 3rem;
+} */
+
 .footer-bg {
   background-color: var(--first-color-second);
   padding: 2rem 0 3rem;
@@ -1115,9 +1180,9 @@ img {
     margin-left: 3rem;
   }
 
-  .about-container {
+  /* .about-container {
     column-gap: 5rem;
-  }
+  } */
 
   .about-img {
     width: 350px;
