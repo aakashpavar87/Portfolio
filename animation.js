@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.from(".services-content", {
         scrollTrigger: {
             trigger: ".services-content",
-            start: "top 80%",
+            start: "top 90%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
         },
@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.from(".portfolio-content", {
         scrollTrigger: {
             trigger: ".portfolio-content",
-            start: "top 80%",
+            start: "top 90%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
         },
@@ -230,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.from(".project-data", {
         scrollTrigger: {
             trigger: ".project-data",
-            start: "top 80%",
+            start: "top 90%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
         },
@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.from(".project-img", {
         scrollTrigger: {
             trigger: ".project-img",
-            start: "top 80%",
+            start: "top 90%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
         },
@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.from(".testimonial-content", {
         scrollTrigger: {
             trigger: ".testimonial-content",
-            start: "top 80%",
+            start: "top 90%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
         },
@@ -269,7 +269,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.from(".contact-info", {
         scrollTrigger: {
             trigger: ".contact-info",
-            start: "top 80%",
+            start: "top 90%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
         },
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.from(".footer-links", {
         scrollTrigger: {
             trigger: ".footer-links",
-            start: "top 80%",
+            start: "top 90%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
         },
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.from(".footer-socials", {
         scrollTrigger: {
             trigger: ".footer-socials",
-            start: "top 80%",
+            start: "top 90%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
         },
